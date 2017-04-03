@@ -1,4 +1,4 @@
-# Code Book for tidy dataset 'tidydata.txt'.
+# Code Book for tidy dataset 'tidydata.txt'
 
 # Dataset Description
 
