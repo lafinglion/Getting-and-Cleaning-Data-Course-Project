@@ -1,10 +1,12 @@
+# Load libraries
 library(dplyr)
 
+# Download and unzip the necessary data
 fileUrl <- "https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip"
 download.file(fileUrl, destfile = "dataset.zip", method="curl")
-
 if(!file.exists("UCI HAR Dataset")) {unzip("dataset.zip")}
 
+# Read the various data sets
 xTrain <- read.table("UCI HAR Dataset/train/X_train.txt")
 yTrain <- read.table("UCI HAR Dataset/train/Y_train.txt")
 subjectTrain <- read.table("UCI HAR Dataset/train/subject_train.txt")
