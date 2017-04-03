@@ -11,5 +11,4 @@ The R script, run_analysis.R, does the following:
 6. Merges the two datasets.
 7. Creates a tidy dataset that consists of the average value of each variable for each subject and activity pair.
 
-codebook.md describes the variables, the data, and any transformations or work that was performed to clean up the data.
-The end result is shown in the file tidy.txt.
+codebook.md describes the variables, activity labels shown on tidy data set tidydata.txt.
