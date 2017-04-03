@@ -14,7 +14,6 @@ yTest <- read.table("UCI HAR Dataset/test/Y_test.txt")
 subjectTest <- read.table("UCI HAR Dataset/test/subject_test.txt")
 
 features <- read.table("UCI HAR Dataset/features.txt")
-
 activity_labels <- read.table("UCI HAR Dataset/activity_labels.txt")
 
 # Merges the training and the test sets to create one data set.
